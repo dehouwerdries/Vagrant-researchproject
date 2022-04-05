@@ -9,6 +9,9 @@
 - Lenny Van de Winkel
 - Arno Heyvaert
 
+## Repository content
+This repository contains our research paper about Vagrant and all our code.
+
 ## Structure
 
 **/multi-purpose-vagrantfile**: This folder contains a general multi-provider Vagrantfile. The default provider is Virtualbox. 
@@ -25,3 +28,6 @@
 
 ## Usage
 All repositories contain a README file that will guide you through the setup. 
+
+## Note
+All service files have been deactivated.
