@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "the-lab-vagrant",
+  "private_key_id": "a41e33c1ab2de466e6a42173c610f832a4d845be",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZ9gaoSjG/LuVS\nsOq2CXgDizvPYHvfxrf+WSpudhIhZz2Vw3VfoZaYWl+k/Sf5hAKlIDU3up4Vz13D\nDSJ1WBvou+FB2ePUJwBsX4qz+vyYRS+J+PPc+DLKwxb/GZXIbuCr1ob5/2Bi8qHx\nwAEbQ86Pjl/hYp/PJJnHnAiXT+oD6ycy1dxg+4+d7ke3sA3U2kXdiysxxx5Ptysd\nhS+Gb9xRZa19gV6zJ8NesQwpQa4uduL288+5xP65i/9WOiv5nH2jR2SqbEzKKwVO\nEiXEcfbw49UYMc4mVzqTXw0ZCVeRyYyZhlovscRivpOye93EcBqJy+9NI2E5XR3a\nJTogrTEvAgMBAAECggEAI40C+fkcExxxkCLGLcnultljeIg6vD277hMaHilI/MTL\noT1fzCjdmN0Iw679EbAsBEX0GDJqrZEEsJdYWv5zkuruK2EATa7M3WBaDdAu2iFS\nxzThhdW/5x2aByLjsO0Q3UZg/q7eSFVd/8H7DDjrnLOyxN7ixRUptgqnxhJlT50C\nuaRCtuXjHcBLLApgEunKECVfBL/J+6mj2sUrCFaid9eAx8+dfHJpSHYRn8b6A1lr\ndNwVZvGiyg9sB2CTmVwJaO9R5/2YO8W5hIJJY6Xnx9g2PMCP9U9pPtHM2cx/flQu\n98T84itB42n52Rr6LpWfpV0EEDurWB3RZMs9eb7o2QKBgQD6BEjIDoTKLzC9+t0R\nY+/Le+iXRHyRxnAzEoufc39L8OdaWtIBdt5buTzuhdwR8kwtXNYBVU12Odg/E9KW\nHhNcG8/gR/Sj3QQzML84D6ujzzWNyhz9BLiWlcOZFUnNYT35sRSAwcfqKq7e6IEe\nYxF1zjIYGeh7/5d5Gdm/4ac2hwKBgQDfLVqfctD2OY1qNorfq/b96M2lTIEG2wX1\nrJGCoGmweAMFkerbk1fEwxTq4fLXS/l/16bYucV7EiTDUVJ5orCp9C04UOaoKcdj\n3GdSxXjN7DckwoNMo1RENtHWMKrsx1uuZvqa3AnSllOqm9vAQ9VmVa7nwTReFo0y\nNrG1TdmyGQKBgD/HBAH0oi8pZpev/ODIy4zu6OBdmiFdq5V7r55XSivHIl1MObIh\n7osbb82w2/jABGq1+emRJxd3nhBJMDkXJv0iIx8le+SpJr8gOkdEyBYbb5/h5Q8u\nOyA+yAyu/4qiubqOT5qg1CyKAt3eFcH4p6WTmffH9CRdiPhdfcyS9aLVAoGBAMkr\nFp7XXeg0ZHYzB+cqGQ8yg/vWBA/r6WlTzi3S7rG02/RvXSXjoJ+pwPcgCEdtIk7M\nUobUnV+cMSsl6JPfxCLOCNzUf7VhQ2uORkxj18q2e9ZUxwmTx+ddCrRpVgjsgoWo\nKYjhgrEh8/S7XM/n1TnTTj909gFBjrCOgI0OyYYxAoGADZ1l0tnuOrYff9bFSI8f\nE+cFTdTnmhqj1kuKOA2qAUcN1WklnHNPa2+ffvFFWZmLr6mcdbDU9YRCsdwjEEDZ\nXtXk4eTEI69UzEgG1DWhT73wuLAz3vc/VF44jEb1NYA3kLF6MNpl5tOY/NQwiDq0\nXPbPoeOMVa7NYQelZJ7D20w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vagrant@the-lab-vagrant.iam.gserviceaccount.com",
+  "client_id": "116328104353431310655",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vagrant%40the-lab-vagrant.iam.gserviceaccount.com"
+}

@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Uncomment the next line to set the default provider to 'VMware Desktop'
+# ENV['VAGRANT_DEFAULT_PROVIDER'] = "vmware_desktop"
+
+# Uncomment the next line to set the default provider to 'Hyper-V'
+# ENV['VAGRANT_DEFAULT_PROVIDER'] = "hyperv"
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/ubuntu2004"
+    
+  config.vm.provider 'virtualbox' do |virtualbox|
+    config.vm.box_url = "https://app.vagrantup.com/generic/boxes/ubuntu2010/versions/3.6.8/providers/virtualbox.box"
+  end
+
+  config.vm.provider 'vmware_desktop' do |vmware|
+      config.vm.box_url = "https://app.vagrantup.com/generic/boxes/ubuntu2010/versions/3.6.8/providers/vmware_desktop.box"
+  end if Vagrant.has_plugin?('vagrant-vmware-desktop')
+
+  config.vm.provider 'hyperv' do |hyperv|
+    config.vm.box_url = "https://app.vagrantup.com/generic/boxes/ubuntu2010/versions/3.6.8/providers/hyperv.box"
+  end if Vagrant.has_plugin?('vagrant-vmware-desktop')
+end

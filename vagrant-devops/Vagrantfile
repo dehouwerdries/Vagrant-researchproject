@@ -1,0 +1,22 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "google/gce"
+
+  config.vm.provider :google do |google, override|
+    google.google_project_id = "the-lab-vagrant"
+    google.google_json_key_location = "/mnt/k/The Lab/vagrant/vagrant-devops/servicefile/servicefile.json"
+
+    google.image_family = "ubuntu-2004-lts"
+	
+	google.zone = "europe-west1-b"
+	
+	google.network = "vagrant-devops-test"
+	
+	google.subnetwork = "vagrant-devops-test"
+
+    override.ssh.username = "lenny"
+    override.ssh.private_key_path = "/home/lenny/.ssh/id_rsa"
+  end
+	config.vm.provision "ansible" do |ansible|
+		ansible.playbook = "dotnetapp_playbook.yml"
+  end
+end
